@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #9d4397;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    color: #e74c3c;
+}
+
+/* Section: Cultural Symbols */
+.cultural-symbols {
+    padding: 2rem 0;
+    background-color: #f4d0f8;
+    text-align: center;
+}
+
+.cultural-symbols .symbols-list {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.symbol-item {
+    width:30%;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.symbol-item h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+/* Section: History */
+.history {
+    padding: 50px;
+    margin: 50px;
+    border-radius: 50px;
+    background-color: #b77eb7;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* Section: Gallery */
+.gallery {
+    padding: 2rem 0;
+    background-color: #f5d7ef;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-item img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+/* Section: Contact */
+.contact {
+    padding: 2rem 0;
+    background-color:#9d4397; 
+    color: #fff;
+    text-align: center;
+}
+
+.contact p {
+    margin-top: 1rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #682f6b;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .cultural-symbols .symbols-list,
+    .gallery-images {
+
+        flex-direction: column;
+        align-items: center;
+        border-radius: 60px;
+    }
+
+    .symbol-item,
+    .image-item {
+        width: 80%;
+    
+        margin-bottom: 1rem;
+        border-radius: 50px;
+    }
+}
+.pheran-details{
+    justify-content: center;
+    align-items: center;
+    
+}
+.pheran-images{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.samovar-images{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.pashmina-images{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+}
+.noonchai-images{
+
+justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.wazwan-images{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.kanger-images{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
